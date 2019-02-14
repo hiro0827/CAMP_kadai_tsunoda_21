@@ -1,0 +1,283 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+}
+
+.btn{
+    font-weight: bold;
+    background-image: url("../img/bg_wood.jpg");
+    color: #fff;
+    text-shadow: 3px 3px 0 #222;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 3px 3px #222;
+    border-radius: 5rem;
+    margin: 10px 0 10px;
+    outline: 0px;
+    border: 0px;
+}
+
+a{
+    color: #222222;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.link{
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+}
+
+.form_container{
+    background-image: url("../img/bg_cork.jpg");
+    width: 50%;
+    height: 250px;
+    margin:30px auto 20px;
+    padding: 30px 0;
+    border-radius: 5rem;
+    box-shadow: 3px 3px inset #222;
+    color: #fff;
+    text-shadow: 2px 2px 0 #222;
+}
+
+.form_container form{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.form_container dl{
+    width: 100%;
+    text-align: center;
+}
+
+.form_item{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #222;
+    padding: 0 0 10px;
+}
+
+/* ユーザー登録画面 */
+/* ログイン画面 */
+.log_wrapper{
+    background-image: url("../img/bg_wood.jpg");
+}
+
+.header{
+    max-width: 80%;
+    margin:30px auto 20px;
+    padding:10px 0 10px;
+    background-image: url("../img/bg_cork.jpg");
+    border-radius: 5rem;
+    box-shadow: 3px 3px inset #222;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 2.0rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #222;
+    padding: 0 10px 0 0;
+}
+
+/* メインコンテンツ＋タイトル */
+
+.slider{
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 5px 5px 3px 3px #222
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+.slick_item{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+}
+
+/* メインコンテンツ 全体レイアウト */
+.main_bg{
+    background-image: url("../img/bg_wood.jpg");
+}
+
+.main_wrapper{
+    display: flex;
+}
+
+/* メインコンテンツ プロフ＋投降 */
+.profile{
+    background: rgba(197, 148, 92, 0.521);
+    height: 440px;
+    margin: 5px 5px;
+    padding: 0 10px 0;
+    border-radius: 3rem;
+    box-shadow: 3px 3px 3px 3px #222;
+}
+
+.bg_profile{
+    background-image: url("../img/bg_cork.jpg");
+    box-shadow: 3px 3px inset #222;
+    padding: 10px 5px;
+    border-radius: 3rem;
+    margin: 0 auto 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #222;
+}
+
+.bg_profile h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 5px;
+}
+
+.insert{
+    margin: 0 0 100px;
+}
+
+.insert_form dd{
+    padding: 0 0 10px;
+}
+
+.text_item{
+    height: 100px;
+}
+
+
+/* メインコンテンツ＋出力 */
+.select{
+    width: 80%;
+    height: 95%;
+    background: rgba(199, 154, 102, 0.473);
+    font-size: 1.0rem;
+    border-radius: 1rem;
+    margin: 10px 15px 0;
+    padding: 10px auto 10px;
+    box-shadow: 2px 2px 2px 2px inset #222;
+}
+
+.select div{
+    width: 90%;
+    height: 90%;
+    margin:20px auto;
+    padding: 10px 0;
+    border-radius: 3rem;
+    background: rgba(1, 51, 7, 0.911);
+    box-shadow: 2px 2px 2px 4px #222;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 0 #222;
+}
+
+.insert_item p{
+    width: 40%;
+    margin:0 auto 15px;
+    text-align: left;
+}
+
+
+
+/* メインコンテンツ＋更新、削除、退会 */
+.right_form{
+    background: rgba(197, 148, 92, 0.521);
+    height: 440px;
+    margin: 5px 5px;
+    padding: 0 10px 0;
+    border-radius: 3rem;
+    box-shadow: 3px 3px 3px 3px #222;
+}
+
+/* 投稿更新,削除 */
+.update_form{
+    margin: 10px 0 10px;
+}
+
+.del_form{
+    margin: 10px 0 100px;
+}
+
+/* ログアウト、退会 */
+
+.logout_bg{
+    background-image: url("../img/bg_wood.jpg");
+    height: 25px;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #fff;
+    border-radius: 1rem;
+}
+
+
+/* 登録削除画面 */
+.del_wrapper{
+    background-image: url("../img/bg_wood.jpg");
+    width: 100%;
+    margin:200px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.del_com{
+    background: #fff;
+    width: 50%;
+    height: 250px;
+    margin:0 auto;
+    padding: 30px 0;
+    border-radius: 5rem;
+    box-shadow: 2px 2px #222;
+}
+
+.del_font{
+    font-size: 20px;
+    padding:0 0 20px;
+}
+
+.del_img{
+    width: 100px;
+    height: 100px;;
+    margin:0 0 20px;
+}
+
+/* フッター */
+.footer{
+    display: block;
+    background:gray;
+    border-radius: 5rem;
+    box-shadow: 3px 3px inset #222;
+    margin: 30px 0 0 ;
+    padding: 10px 0;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold; 
+    text-align: center;
+}
+.f_wrapper{
+    position: relative;
+}
