@@ -89,6 +89,7 @@
     </div>
 
 <!-- 更新と削除 -->
+
     <div class="right_form">
 <!-- 投稿更新 -->
         <div class="update_form">
@@ -109,7 +110,7 @@
             </form>
         </div>
 
-        <ul >
+        <ul>
             <li class="logout_bg"><a href="logout.php?logout&delete">会員退会</a></li>
         </ul>
     </div>

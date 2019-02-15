@@ -51,9 +51,9 @@ if(isset($_POST['signup'])) {
 		<form method="post" action="">
 			<dl>
 				<dt class="form_item"><label for="q1">ユーザー名</label></dt>
-				<dd class="form_item"><input type="text" name="username" id="q1" size="50" placeholder="user" required></dd>
+				<dd class="form_item"><input type="text" name="username" id="q1" size="60" placeholder="user" required></dd>
 				<dt class="form_item"><label for="q3">パスワード</label></dt>
-				<dd class="form_item"><input type="password" name="password" id="q3" size="50" placeholder="password" required></dd>
+				<dd class="form_item"><input type="password" name="password" id="q3" size="60" placeholder="password" required></dd>
 			</dl>
 			<button class="btn" type="submit" name="signup">新規登録</button>
 

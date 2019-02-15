@@ -14,7 +14,12 @@ $(document).ready(function(){
 $(function(){
     $('.slider').slick({
         autoplay:true,
-        autoplaySpeed:4000,
+        autoplaySpeed:3000,
         dots:true,
     });
+});
+
+// HOME表示
+$(function(){
+    $('body').hide().fadeIn(2000)
 });

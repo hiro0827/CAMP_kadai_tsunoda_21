@@ -58,6 +58,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/animate.js"></script>
+	<script src="js/animsltion.js"></script>
+
+
 
 	<title>ログインフォーム</title>
 </head>
@@ -71,14 +74,16 @@
 	<form method="post" action="">
 		<dl>
 			<dt class="form_item"><label for="q1">ユーザー名</label></dt>
-			<dd class="form_item"><input type="name" name="name" id="q1" size="50" placeholder="user" required></dd>
+			<dd class="form_item"><input type="name" name="name" id="q1" size="60" placeholder="user" required></dd>
 			<dt class="form_item"><label for="q2">パスワード</label></dt>
-			<dd class="form_item"><input type="password" name="password" id="q2" size="50" placeholder="password" required></dd>
+			<dd class="form_item"><input type="password" name="password" id="q2" size="60" placeholder="password" required></dd>
 		</dl>
 		<button class="btn" type="submit" name="login">ログイン</button><br>
 	</form>
 </div>
-<p class="link"><a class="fuga" href="register.php">はじめてご利用される方（新規ユーザ登録）</a></p>
+<p class="link"><a href="register.php" class="animsition-link"
+  data-animsition-out-class="fade-out-right"
+  data-animsition-out-duration="2000">はじめてご利用される方（新規ユーザ登録）</a></p>
 
 <?php
 include ('footer.php');
