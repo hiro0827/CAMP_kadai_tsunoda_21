@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Open-sans","ヒラギノ角ゴシック","メイリオ";
+    color: #222222;
+    background-color :rgb(235, 245, 218);
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
+}
+
+.wrapp{
+    max-width: 960px;
+    margin: auto;
+    background-color :#fff;
+}
+
+.header{
+    font-size: 3.0rem;
+    text-align: center;
+    height: 100px;
+    margin:0 auto 20px;
+    background-color:rgb(235, 245, 218);
+    padding: 40px 0;
+}
+
+
+.margin_btm{
+    margin:0 0 30px;
+}
+
+.btn_style{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.game_container{
+    display: block;
+    width:100%;
+    height: 460px;
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+.game-item{
+    width: 900px;
+    display: flex;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.result{
+    width: 960px;
+    min-height: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.game_result{
+    display: block;
+    min-width: 500px;
+    height: 300px;
+}
+
+div.example{
+    font-size: 8px;
+    width: 400px;
+    height: 200px;
+    margin:0 auto 30px;
+    background-color:#fff;
+    border:solid 1px #2222;
+    overflow: scroll;
+}
+
+.point{
+    display: block;
+    text-align: left;
+}
+
+.footer{
+    height: 60px;
+    padding: 20px 0; 
+    color: #fff;
+    background: #707070;
+    text-align: center;
+}
